@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mozgoplesk</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__items">
+            <a href="." class="header__logo"><img class="header__logo_img" src="./assets/logo.svg" alt=""></a>
+            <nav class="header__nav_tabs">
+                <ul class="header__list">
+                    <li class="header__item"><a class="header__link" href="about">о компании</a></li>
+                    <li class="header__item"><a class="header__link" href="service">услуги</a></li>
+                    <li class="header__item"><a class="header__link" href="merch">мерч</a></li>
+                    <li class="header__item"><a class="header__link" href="events">мероприятия</a></li>
+                    <li class="header__item"><a class="header__link" href="branches">филиалы</a></li>
+                    <li class="header__item"><a class="header__link" href="https://000unknownid.github.io/plesk_ap/">промокоды</a></li>
+                </ul>
+            </nav>
+            <button class="menu__button" type="button" onclick="showLinks()">
+                <svg aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                   <path fill="#D9D9D9" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                </svg>
+             </button>
+        </div>
+        <div class="header__black"></div>
+    </header>
+    <div class="menu">
+        <div class="menu__links">
+            <a class="header__link" href="about">о компании</a>
+            <a class="header__link" href="service">услуги</a>
+            <a class="header__link" href="merch">мерч</a>
+            <a class="header__link" href="events">мероприятия</a>
+            <a class="header__link" href="branches">филиалы</a>
+            <a class="header__link" href="https://000unknownid.github.io/plesk_ap/">промокоды</a>
+        </div>
+    </div>
+    <main class="merch">
+        <div class="merch__columns">
+            <div class="merch__column merch__column1">
+                <img class="merch__product product_1" src="./assets/products/product_1.png" alt="">
+                <img class="merch__product product_2" src="./assets/products/product_2.png" alt="">
+            </div>
+            <div class="merch__column merch__column2">
+                <img class="merch__product product_3" src="./assets/products/product_3.png" alt="">
+            </div>
+            <div class="merch__column merch__column3">
+                <img class="merch__product product_4" src="./assets/products/product_4.png" alt="">
+                <img class="merch__product product_5" src="./assets/products/product_5.png" alt="">
+            </div>
+            <div class="merch__content_glb" style="display: none;">
+                <p id="merch-description"></p>
+        
+                <div class="buy__bar_glb buy__bar_1">
+                    <p id="merch-price"></p>
+                    <div>
+                        <svg class="merch__add_btn" width="35" height="35" viewBox="0 0 51 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="25.5" cy="26.5" r="25.5" fill="black"/>
+                            <path d="M23.2529 35.9971V27.7451H15.4893V24.498H23.2529V16.2461H26.7441V24.498H34.5078V27.7451H26.7441V35.9971H23.2529Z" fill="white"/>
+                        </svg>
+                        <span class='merch-price__counter'>0</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./js/jquery.3.7.1-min.js"></script>
+<script src="./js/merch.js"></script>
+<script src="./js/main.js"></script>
+</html>

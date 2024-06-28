@@ -1,0 +1,466 @@
+:root {
+    --top-text1: 40px;
+    --top-text2: 400px;
+    --top-text3: 200px;
+
+    --left-text1: 168px;
+    --left-text2: 433px;
+    --right-text3: 10vw;
+}
+
+/* el: Header */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    height: 60px;
+    background: white;
+}
+
+.header__black {
+    width: 100%;
+    background-color: black;
+    height: 20px;
+}
+
+.header__items {
+    height: 60px;;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.header__logo {
+    display: block;
+}
+
+.header__logo_img {
+    width: 108.5px;
+}
+
+.header__list {
+    display: flex;
+    list-style-type: none;
+    gap: 70px;
+}
+
+.header__link {
+    text-decoration: none;
+    font-size: 20.77px;
+    opacity: 90%;
+}
+
+.header__link:visited {color: black;}
+
+.header__link:hover {
+    opacity: 100%;
+}
+
+.menu {
+    background-color: #D9D9D9;
+    padding-bottom: 20px;
+    display: none;
+}
+
+.menu__button {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu__links {
+    display: flex;
+    font-size: 28px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Page: Index */
+
+.index__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 90px);
+}
+
+.index__clear {
+    opacity: 0;
+}
+
+.index__circle {
+    width: 391px;
+    height: 412.5px;
+}
+
+.index__circle:hover {
+    animation: rotate_dryer_right 6s ease-in-out infinite forwards;
+}
+
+/* Page: Service */
+
+.service__center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 25px;
+    height: calc(100vh - 90px);
+}
+
+.service__text {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Page: About */
+
+.about__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__main {
+    display: flex;
+    flex-direction: column;
+}
+
+.review__main {
+    display: flex;
+    flex-direction: column; 
+    justify-content: left; 
+    align-items: flex-start; 
+    gap: 1px;
+    margin-left: 160px;
+
+}
+
+.review__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow {
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    margin-top: 15px;
+}
+
+.review__mobile {
+    display: none;
+}
+
+.review__name {
+    font-size: 30px;
+}
+
+.send__review {
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.review__input[type=text] {
+    width: 220px;
+    appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: .2em solid #D9D9D9;
+	background: rgba(white, .2);
+	border-radius: .2em .2em 0 0;
+	padding: .4em;
+	color: black;
+}
+
+.review__send {
+    cursor: pointer;
+    font-family: "TTCommons-Bold";
+}
+
+.arrow__container {
+    position: relative;
+    display: inline-block;
+}
+
+
+.arrow__pc.arrow-left {
+    left: -100px; 
+}
+
+.arrow__pc.arrow-right {
+    right: -100px; 
+}
+
+.about__text:first-child {
+    margin-top: 2vw;
+}
+
+.about__text {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left; 
+    padding-left: 20px;
+}
+
+.promo__link {
+    font-size: 25px;
+    color: black;
+    margin-top: 40px;
+}
+
+.about__poster_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.about__poster {
+    top: 0;
+    height: 81vh;
+    float: right;
+}
+
+.about__link {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Page: Branches */
+
+.branches {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.branches__items {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.branches__item {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.branches__map {
+    width: 100vw;
+
+}
+
+#events-after {
+    display: none;
+}
+
+.events__poster {
+    margin-top: 3vw;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.events__poster_img {
+    width: 350px;
+}
+
+.events__texts {
+    position: relative;
+}
+
+.events__text {
+    position: absolute;
+}
+
+.text-1 {
+    top: var(--top-text1);
+    left: var(--left-text1);
+}
+
+.text-2 {
+    top: var(--top-text2);
+    left: var(--left-text2);
+}
+
+.text-3 {
+    top: var(--top-text3);
+    right: var(--right-text3);
+}
+
+/* Page: Merch */
+
+
+
+.merch__columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.merch__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.merch__column1 {
+    margin-top: 40px;
+    gap: 90px;
+}
+
+.merch__column2 {
+    justify-content: center;
+}
+
+.merch__column3 {
+    gap: 135px;
+}
+
+.merch__product {
+    width: 225px;
+    transition: all 200ms;
+    cursor: pointer;
+}
+
+.merch__product:hover {
+    width: 240px;
+    transition: width .2;
+}
+
+.product_1 {
+    transform: rotate(12.77deg);
+}
+
+.product_3 {
+    transform: rotate(-14deg);
+}
+
+.product_4 {
+    transform: rotate(-25.78deg);
+}
+
+.product_5 {
+    transform: rotate(47.65deg);
+}
+
+.merch__product.hide {
+    opacity: 0;
+    transition: opacity 200ms;
+}
+
+.move-to-center {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 540px;
+    transform: all 100ms;
+}
+
+.merch__product.rotate {
+    transform: rotate(0);
+    transition: all 300ms;
+}
+
+.merch__product.scale-up {
+    width: 450px;
+    transition: all 300ms;
+}
+
+.move-to-left-200 {
+    transform: translate(-200px);
+    transition: all 200ms;
+}
+
+.move-to-left-100 {
+    transform: translate(-100px);
+    transition: all 200ms;
+}
+
+.move-to-right-200 {
+    transform: translate(200px);
+    transition: all 200ms;
+}
+
+.move-to-right-100 {
+    transform: translate(100px);
+    transition: all 200ms;
+}
+
+.merch__content_glb {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    font-size: 30px;
+    margin-bottom: 196px;
+}
+
+.buy__bar_glb {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.merch__add_btn {
+    cursor: pointer;
+}
+
+.merch-price__counter {
+    font-size: 15px;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px;
+    opacity: 0;
+}
+
+/* Page: 404 */
+
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300px;
+    text-align: center;
+    height: 100svh;
+}

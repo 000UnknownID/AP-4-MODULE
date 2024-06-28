@@ -1,0 +1,162 @@
+@media screen and (max-width: 1400px) {
+    .text-1 {
+        left: 168px;
+    }
+    
+    .text-2 {
+        left: 300px;
+    }
+    
+    .text-3 {
+        right: 250px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1160px) {
+    .header__logo_img {
+        width: 108.5px;
+    }
+
+    .header__items {
+        gap: 35px;
+    }
+
+    .header__list {
+        gap: 35px;
+    }
+
+    .text-2 {
+        left: 200px;
+    }
+    
+    .text-3 {
+        right: 50px;
+    }
+
+    .about__link {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 974px) {
+    .about__items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review {
+        margin-bottom: 40px;
+    }
+
+    .review__main {
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .header__items {
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .header__nav_tabs {
+        display: none;
+      }
+  
+      .menu__button {
+          display: block;
+      }
+
+      #events-before {
+        display: none;
+      }
+
+      #events-after {
+        display: flex;
+      }
+
+      .events__texts {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        align-items: center;
+    }
+
+    .events__texts {
+        position: static;
+        margin-bottom: 70px;
+    }
+    
+    .events__text {
+        position: static;
+    }
+
+    .about__texts {
+        justify-content: center;
+    }
+
+    .about__poster {
+        margin-top: 30px;
+        width: 70vw;
+        height: 90vw;
+    }
+
+    .branches__items {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .index__circle {
+        width: 50vw;
+        height: 54vw;
+    }
+
+    .error {
+        font-size: 50vw;
+    }
+}
+
+@media screen and (max-width: 486px) {
+    .arrow__pc {
+        display: none;
+    }
+
+    .arrow {
+        position: static;
+    }
+
+    .review__mobile {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .events__poster_img {
+        width: 90vw;
+    }
+
+    .branches__item {
+        font-size: 15px;
+        text-wrap: wrap;
+    }
+}
+
+@media screen and (max-height: 510px) {
+    .index__container {
+        height: 650px;
+    }
+
+    .service__center {
+        height: 300px;
+    }
+}

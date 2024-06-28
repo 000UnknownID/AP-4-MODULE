@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mozgoplesk</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__items">
+            <a href="." class="header__logo"><img class="header__logo_img" src="./assets/logo.svg" alt=""></a>
+            <nav class="header__nav_tabs">
+                <ul class="header__list">
+                    <li class="header__item"><a class="header__link" href="about">о компании</a></li>
+                    <li class="header__item"><a class="header__link" href="service">услуги</a></li>
+                    <li class="header__item"><a class="header__link" href="merch">мерч</a></li>
+                    <li class="header__item"><a class="header__link" href="events">мероприятия</a></li>
+                    <li class="header__item"><a class="header__link" href="branches">филиалы</a></li>
+                    <li class="header__item"><a class="header__link" href="https://000unknownid.github.io/plesk_ap/">промокоды</a></li>
+                </ul>
+            </nav>
+            <button class="menu__button" type="button" onclick="showLinks()">
+                <svg aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                   <path fill="#D9D9D9" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                </svg>
+             </button>
+        </div>
+        <div class="header__black"></div>
+    </header>
+    <div class="menu">
+        <div class="menu__links">
+            <a class="header__link" href="about">о компании</a>
+            <a class="header__link" href="service">услуги</a>
+            <a class="header__link" href="merch">мерч</a>
+            <a class="header__link" href="events">мероприятия</a>
+            <a class="header__link" href="branches">филиалы</a>
+            <a class="header__link" href="https://000unknownid.github.io/plesk_ap/">промокоды</a>
+        </div>
+    </div>
+    <main class="about">
+        <div class="about__items">
+            <div class="about__main">
+                <div class="about__texts">
+                    <p class="about__text">Мозгоплеск это не просто прачечная, это место, где человек может <br> 
+                        избавится от стресса и лишней информации путем стирки нейронов.</p>
+                        <br>
+                    <p class="about__text">Мы используем инновационные технологии по очистке ваших <br> 
+                        нейронов путем трехфазного ополаскивания. После процедур <br>
+                        в нашей прачечной, ваши мысли будут избавлены от лишего стресса</p>
+                        <br>
+                    <p class="about__text">У нас много опыта в этой сфере и мы с уверенностью возьмемся за <br>
+                        стирку ваших нейронов!</p>
+                        <br>
+                    <a class="about__text promo__link" href="https://portfolio.hse.ru/Project/198981">промо-сайт</a>
+                </div>
+                <div class="review__block">
+                    <div class="review__main">
+                        <div class="arrow__container">
+                            <img class="arrow arrow__pc arrow-left" src="./assets/left_arrow.png" alt="">
+                            <img class="review__img" src="./assets/reviews/1.png" alt="">
+                            <img class="arrow arrow__pc arrow-right" src="./assets/right_arrow.png" alt="">
+                        </div>
+                    <div class="review">
+                        <p class="review__name">Валентин 30 лет</p>
+                        <p class="review__text">
+                            Мне действительно помог <br>
+                            мозгоплеск, теперь я могу <br>
+                            дальше хейтить все кроме<br>
+                            яблочной техники, спасибо</p>
+                            <div class="send__review">
+                                <input class="review__input" type="text" placeholder="Оставьте тут свой отзыв...">
+                                <p class="review__send">></p>
+                            </div>
+                            
+                    </div>
+                    <div class="review__mobile">
+                        <img class="arrow arrow-left" src="./assets/left_arrow.png" alt="">
+                        <img class="arrow arrow-right" src="./assets/right_arrow.png" alt="">
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about__poster_block">
+                <img class="about__poster" src="./assets/poster.png" alt="">
+                <a class="about__link" href="https://portfolio.hse.ru/Project/207153">путеводитель по прачечной</a>
+            </div>
+
+        </div>
+
+    </main>
+</body>
+<script src="./js/jquery.3.7.1-min.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/about.js"></script>
+</html>
